@@ -22,7 +22,7 @@ export default function Menu() {
             das passende Szenario-Video starten.
           </h2>
           <div className='buttons'>
-            <button onClick={handleClick}>Geburtstag von Mia</button>
+            <button onClick={handleClick}>Geburtstag von Anna</button>
             <button>Urlaubsplanung</button>
             <button>Verdächtiger Anruf</button>
           </div>
