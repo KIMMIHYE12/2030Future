@@ -44,22 +44,38 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+}
 
-    button {
-      width: 100%;
-      display: block;
-      padding: 1.3rem 0;
-      margin-bottom: 1.3em;
-      outline: 0;
-      border: 0;
-      font-size: 1.25rem;
-      border: 1px solid #00dac6;
-      background: #000;
-      color: #e0e0e0;
-      border-radius: 1rem;
-      font-family: "Atkinson Hyperlegible", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
+button {
+  width: 100%;
+  display: block;
+  padding: 1.3rem 0;
+  margin-bottom: 1.3em;
+  outline: 0;
+  border: 0;
+  font-size: 1.25rem;
+  border: 1px solid #00dac6;
+  background: #000;
+  color: #e0e0e0;
+  border-radius: 1rem;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ending-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 3em 1.5em;
+  .ending-text {
+    font-size: 1.25rem;
+  }
+  .ending-finish {
+    font-size: 1rem;
+    color: #03dac6;
+    margin: 0 0 0.44em;
   }
 }
