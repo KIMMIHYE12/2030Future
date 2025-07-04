@@ -7,7 +7,7 @@ const Ending2 = () => {
         <p className='ending-text'>
           Und so endete Klaus’ Tag mit einem Lächeln.
           <br />
-          Er schrieb Anna eine liebe Nachricht – und war zufrieden.
+          Er schrieb Anna eine liebe Nachricht und war zufrieden.
         </p>
 
         <p className='ending-finish'>Ende.</p>
