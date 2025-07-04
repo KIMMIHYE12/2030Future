@@ -58,13 +58,10 @@ body {
 
 @media (max-width: 480px) and (orientation: portrait) {
   .phone-frame {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
+    width: 375px;
+    height: 100dvh; /* 디바이스 실제 뷰포트 높이 */
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
   }
 }

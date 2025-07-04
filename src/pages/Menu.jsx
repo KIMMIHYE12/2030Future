@@ -6,14 +6,14 @@ export default function Menu() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/video1");
+    navigate("/scenario1/sc01");
   };
 
   return (
-    <div className="con_menu">
+    <div className='con_menu'>
       <Container>
         <h2>Was für eine Nachricht hat Klaus wohl bekommen?</h2>
-        <div className="buttons">
+        <div className='buttons'>
           <button onClick={handleClick}>🎂 Geburtstag von Mia</button>
           <button>✈️ Urlaubsplanung</button>
           <button>📞 Verdächtiger Anruf</button>
