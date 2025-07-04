@@ -1,16 +1,46 @@
 body {
   background: black;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border-bottom: 1px solid #333333;
+  h3 {
+    margin: 0;
+    font-size: 1.13em;
+    color: #e0e0e0;
+  }
 }
 
 .con_menu {
   height: 100vh;
-  padding: 2em 0;
+  padding: 2em 1em;
+  h3 {
+    font-size: 1rem;
+    color: #03dac6;
+    margin: 0 0 0.44em;
+  }
   h2 {
-    color: White;
-    font-size: 2.5rem;
+    color: #e0e0e0;
+    font-size: 1.25rem;
+    line-height: 1.4em;
+    margin-bottom: 2.7em;
   }
   .buttons {
-    margin-top: 3rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,15 +48,18 @@ body {
     button {
       width: 100%;
       display: block;
-      padding: 2rem 0;
-      margin-bottom: 2rem;
+      padding: 1.3rem 0;
+      margin-bottom: 1.3em;
       outline: 0;
       border: 0;
-      font-size: 1.75rem;
-      border: 1px solid #fff;
+      font-size: 1.25rem;
+      border: 1px solid #00dac6;
       background: #000;
-      color: white;
-      border-radius: 2rem;
+      color: #e0e0e0;
+      border-radius: 1rem;
+      font-family: "Atkinson Hyperlegible", sans-serif;
+      font-weight: 700;
+      font-style: normal;
     }
   }
 }

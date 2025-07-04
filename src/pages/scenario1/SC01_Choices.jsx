@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import Header from "../../components/Header";
 
 const SC01_Choices = () => {
   const navigate = useNavigate();
@@ -13,15 +14,19 @@ const SC01_Choices = () => {
   };
 
   return (
-    <div className='con_menu'>
+    <>
+      <Header title='Interaktionsseite' />
       <Container>
-        <h2>Möchten Sie Anna Geld überweisen?</h2>
-        <div className='buttons'>
-          <button onClick={handleClickYes}>Ja</button>
-          <button onClick={handleClickNO}>Nein</button>
+        <div className='con_menu'>
+          <h3>Jetzt sind Sie Klaus!</h3>
+          <h2>Möchten Sie Anna Geld überweisen?</h2>
+          <div className='buttons'>
+            <button onClick={handleClickYes}>Ja</button>
+            <button onClick={handleClickNO}>Nein</button>
+          </div>
         </div>
       </Container>
-    </div>
+    </>
   );
 };
 

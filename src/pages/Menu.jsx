@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
 
 export default function Menu() {
   const navigate = useNavigate();
@@ -10,13 +11,21 @@ export default function Menu() {
   };
 
   return (
-    <div className='con_menu'>
+    <div>
+      <Header title='Szenario auswählen' />
       <Container>
-        <h2>Was für eine Nachricht hat Klaus wohl bekommen?</h2>
-        <div className='buttons'>
-          <button onClick={handleClick}>🎂 Geburtstag von Mia</button>
-          <button>✈️ Urlaubsplanung</button>
-          <button>📞 Verdächtiger Anruf</button>
+        <div className='con_menu'>
+          <h3>Bitte wählen Sie ein Szenario aus.</h3>
+          <h2>
+            Klaus hat gerade eine Benachrichtigung von KI-Assistent erhalten.
+            Worum könnte es gehen? Wählen Sie ein Thema aus danach können Sie
+            das passende Szenario-Video starten.
+          </h2>
+          <div className='buttons'>
+            <button onClick={handleClick}>Geburtstag von Mia</button>
+            <button>Urlaubsplanung</button>
+            <button>Verdächtiger Anruf</button>
+          </div>
         </div>
       </Container>
     </div>
