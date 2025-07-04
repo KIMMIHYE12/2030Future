@@ -78,10 +78,13 @@ body {
     padding: 0;
   }
   .phone-frame {
-    width: 375px;
-    height: 100dvh; /* 디바이스 실제 뷰포트 높이 */
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
-    border-radius: 20px;
+    border: none;
+    border-radius: 0;
     overflow: hidden;
+    box-shadow: none;
+    position: relative;
   }
 }
