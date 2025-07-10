@@ -10,7 +10,7 @@ const SC05 = () => {
   return (
     <div className='video-wrapper'>
       <video
-        src='/videos/scenario1/SC05.mp4'
+        src='/videos/scenario1/SZ01_SC05.mp4'
         autoPlay
         controls
         onEnded={handleVideoEnd}
