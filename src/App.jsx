@@ -21,6 +21,12 @@ import SZ02_SC04 from "./pages/scenario2/SZ02_SC04";
 import SZ02_SC05 from "./pages/scenario2/SZ02_SC05";
 import SZ02_Ending1 from "./pages/scenario2/SZ02_Ending1";
 import SZ02_Ending2 from "./pages/scenario2/SZ02_Ending2";
+import SZ03_SC01 from "./pages/scenario3/SZ03_SC01";
+import SZ03_SC01_Choices from "./pages/scenario3/SZ03_SC01_Choices";
+import SZ03_SC02 from "./pages/scenario3/SZ03_SC02";
+import SZ03_SC03 from "./pages/scenario3/SZ03_SC03";
+import SZ03_Ending1 from "./pages/scenario3/SZ03_Ending1";
+import SZ03_Ending2 from "./pages/scenario3/SZ03_Ending2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -56,6 +62,15 @@ function App() {
             <Route path='/scenario2/sc05' element={<SZ02_SC05 />} />
             <Route path='/scenario2/ending1' element={<SZ02_Ending1 />} />
             <Route path='/scenario2/ending2' element={<SZ02_Ending2 />} />
+            <Route path='/scenario3/sc01' element={<SZ03_SC01 />} />
+            <Route
+              path='/scenario3/sc01/choices'
+              element={<SZ03_SC01_Choices />}
+            />
+            <Route path='/scenario3/sc02' element={<SZ03_SC02 />} />
+            <Route path='/scenario3/sc03' element={<SZ03_SC03 />} />
+            <Route path='/scenario3/ending1' element={<SZ03_Ending1 />} />
+            <Route path='/scenario3/ending2' element={<SZ03_Ending2 />} />
           </Routes>
         </BrowserRouter>
       </div>

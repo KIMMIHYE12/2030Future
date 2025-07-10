@@ -6,14 +6,8 @@ import Header from "../components/Header";
 export default function Menu() {
   const navigate = useNavigate();
 
-  const handleClick1 = () => {
-    navigate("/scenario1/sc01");
-  };
-  const handleClick2 = () => {
-    navigate("/scenario2/sc01");
-  };
-  const handleClick3 = () => {
-    navigate("/scenario3/sc01");
+  const handleNavigate = (path) => {
+    navigate(path);
   };
 
   return (
@@ -28,9 +22,15 @@ export default function Menu() {
             das passende Szenario-Video starten.
           </h2>
           <div className='buttons'>
-            <button onClick={handleClick1}>Geburtstag von Anna</button>
-            <button onClick={handleClick2}>Urlaubsplanung</button>
-            <button onClick={handleClick3}>Verdächtiger Anruf</button>
+            <button onClick={() => handleNavigate("/scenario1/sc01")}>
+              Geburtstag von Anna
+            </button>
+            <button onClick={() => handleNavigate("/scenario2/sc01")}>
+              Urlaubsplanung
+            </button>
+            <button onClick={() => handleNavigate("/scenario3/sc01")}>
+              Verdächtiger Anruf
+            </button>
           </div>
         </div>
       </Container>
