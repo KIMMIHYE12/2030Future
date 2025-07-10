@@ -1,18 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const SZ03_Ending2 = () => {
+  const navigate = useNavigate();
   return (
     <div className='ending-screen'>
       <div>
         <p className='ending-text'>
-          Und so endete Klaus’ Tag mit einem Lächeln.
+          Und so endete Klaus’ Tag mit einem Gefühl der Sicherheit.
           <br />
-          Er schrieb Anna eine liebe Nachricht und war zufrieden.
+          Er erkannte den Betrugsversuch rechtzeitig, dank seines Assistenten.
         </p>
 
         <p className='ending-finish'>Ende.</p>
       </div>
-      <button className='home-button' onClick={() => navigate("/")}>
+      <button className='home-button' onClick={() => navigate("/menu")}>
         Zurück zur Startseite
       </button>
     </div>
