@@ -18,7 +18,7 @@ export default function Menu() {
           <h3>Bitte wählen Sie ein Szenario aus.</h3>
           <h2>
             Klaus hat gerade eine Benachrichtigung von KI-Assistent erhalten.
-            Worum könnte es gehen? Wählen Sie ein Thema aus danach können Sie
+            Worum könnte es gehen? Wählen Sie ein Thema aus, danach können Sie
             das passende Szenario-Video starten.
           </h2>
           <div className='buttons'>
