@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Header from "../components/Header";
+import ContactForm from "../components/ContactForm";
 
 const Kontakt = () => {
   return (
@@ -14,6 +15,7 @@ const Kontakt = () => {
             Worum könnte es gehen? Wählen Sie ein Thema aus, danach können Sie
             das passende Szenario-Video starten.
           </h2>
+          <ContactForm />
         </div>
       </Container>
     </div>
