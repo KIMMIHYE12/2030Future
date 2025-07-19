@@ -24,6 +24,9 @@ function OffcanvasMenu() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className='justify-content-end flex-grow-1 pe-3'>
+                <Nav.Link as={Link} to='/menu'>
+                  Startseite
+                </Nav.Link>
                 <Nav.Link as={Link} to='/projekt'>
                   Projekt
                 </Nav.Link>

@@ -110,3 +110,7 @@ body {
   color: #121212 !important;
   font-weight: 700 !important;
 }
+
+.nav-link {
+  font-size: 1.13rem !important;
+}
