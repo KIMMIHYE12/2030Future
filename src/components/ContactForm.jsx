@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
 
   return (
-    <Form ref={form} onSubmit={sendEmail}>
+    <Form data-bs-theme='dark' ref={form} onSubmit={sendEmail}>
       <Form.Group className='mb-3' controlId='formSubject'>
         <Form.Label>Betreff</Form.Label>
         <Form.Control
@@ -37,12 +37,7 @@ const ContactForm = () => {
 
       <Form.Group className='mb-3' controlId='formName'>
         <Form.Label>Name</Form.Label>
-        <Form.Control
-          type='text'
-          name='name'
-          placeholder='Dein Name'
-          required
-        />
+        <Form.Control type='text' name='name' placeholder='Ihr Name' required />
       </Form.Group>
 
       <Form.Group className='mb-3' controlId='formEmail'>
@@ -50,7 +45,7 @@ const ContactForm = () => {
         <Form.Control
           type='email'
           name='email'
-          placeholder='deine@email.de'
+          placeholder='Ihre@email.de'
           required
         />
       </Form.Group>

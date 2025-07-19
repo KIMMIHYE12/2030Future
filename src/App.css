@@ -102,3 +102,11 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.btn-primary {
+  padding: 0.7rem 0 !important;
+  background: #03dac6 !important;
+  border: 0 !important;
+  color: #121212 !important;
+  font-weight: 700 !important;
+}

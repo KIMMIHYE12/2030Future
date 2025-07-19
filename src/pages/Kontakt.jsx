@@ -8,12 +8,12 @@ const Kontakt = () => {
     <div>
       <Header title='Kontakt' />
       <Container>
-        <div className='con_menu'>
-          <h3>sapiens0612@gmail.com</h3>
+        <div className='con_menu con_page'>
+          <h3>Schreiben Sie mir eine Nachricht</h3>
           <h2>
-            Klaus hat gerade eine Benachrichtigung von KI-Assistent erhalten.
-            Worum könnte es gehen? Wählen Sie ein Thema aus, danach können Sie
-            das passende Szenario-Video starten.
+            Ihre Rückmeldung hilft mir dabei, mein Projekt weiterzuentwickeln.
+            <br />
+            Ich freue mich über Ihre Gedanken und Anregungen.
           </h2>
           <ContactForm />
         </div>
