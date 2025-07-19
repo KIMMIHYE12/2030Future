@@ -27,6 +27,8 @@ import SZ03_SC02 from "./pages/scenario3/SZ03_SC02";
 import SZ03_SC03 from "./pages/scenario3/SZ03_SC03";
 import SZ03_Ending1 from "./pages/scenario3/SZ03_Ending1";
 import SZ03_Ending2 from "./pages/scenario3/SZ03_Ending2";
+import Projekt from "./pages/Projekt";
+import Kontakt from "./pages/Kontakt";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +40,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Intro />} />
             <Route path='/menu' element={<Menu />} />
+            <Route path='/projekt' element={<Projekt />} />
+            <Route path='/kontakt' element={<Kontakt />} />
             <Route path='/scenario1/sc01' element={<SC01 />} />
             <Route path='/scenario1/sc01/choices' element={<SC01_Choices />} />
             <Route path='/scenario1/sc02' element={<SC02 />} />

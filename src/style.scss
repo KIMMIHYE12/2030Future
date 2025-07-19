@@ -12,6 +12,10 @@ h3 {
   font-style: normal;
 }
 
+.mb_2 {
+  margin-bottom: 2em;
+}
+
 header {
   display: flex;
   padding: 0 1.75em;
@@ -45,6 +49,21 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  &.con_menu {
+    overflow-y: scroll;
+    padding-bottom: 7em;
+    h2 {
+      margin-bottom: 1.5em;
+    }
+    p {
+      font-size: 1.13rem;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+    img {
+      width: 100%;
+    }
   }
 }
 
