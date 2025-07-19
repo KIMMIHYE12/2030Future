@@ -7,16 +7,11 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        form.current,
-        {
-          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-        }
-      )
+      .sendForm("service_3frp06b", "template_1kn6hbb", form.current, {
+        publicKey: "bZjeJKlXoDfqjGQUa",
+      })
+
       .then(
         () => {
           alert("Nachricht erfolgreich gesendet!");
