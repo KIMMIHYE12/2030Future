@@ -10,7 +10,7 @@ import SC02_Choices from "./pages/scenario1/SC02_Choices";
 import SC03 from "./pages/scenario1/SC03";
 import SC04 from "./pages/scenario1/SC04";
 import SC05 from "./pages/scenario1/SC05";
-import Ending1 from "./pages/scenario1/ending1";
+import Ending1 from "./pages/scenario1/Ending1";
 import Ending2 from "./pages/scenario1/Ending2";
 import SZ02_SC01 from "./pages/scenario2/SZ02_SC01";
 import SZ02_SC01_Choices from "./pages/scenario2/SZ02_SC01_Choices";
