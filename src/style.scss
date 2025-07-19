@@ -14,9 +14,10 @@ h3 {
 
 header {
   display: flex;
+  padding: 0 1.75em;
   height: 56px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #000;
   border-bottom: 1px solid #333333;
   h3 {

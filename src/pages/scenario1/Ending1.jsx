@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Ending1 = () => {
+const ending1 = () => {
   const navigate = useNavigate();
   return (
     <div className='ending-screen'>
@@ -21,4 +21,4 @@ const Ending1 = () => {
   );
 };
 
-export default Ending1;
+export default ending1;
